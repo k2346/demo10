@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="multiplePagesUp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:multiplePagesUp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="PlayButton" Content="Play" HorizontalAlignment="Center" VerticalAlignment="Center" Click="PlayButton_Click" Margin="613,344,620,344"/>
+        <TextBox x:Name="NameTextBox" HorizontalAlignment="Left" Margin="538,288,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="209"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="617,239,0,0" TextWrapping="Wrap" Text="Name:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="TulosTextBlock" HorizontalAlignment="Left" Margin="935,119,0,0" TextWrapping="Wrap" Text="Tuloksesi oli: " VerticalAlignment="Top"/>
+    </Grid>
+</Page>

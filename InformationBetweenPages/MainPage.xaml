@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="InformationBetweenPages.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:InformationBetweenPages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="NametextBlock" HorizontalAlignment="Center" TextWrapping="Wrap" Text="First name:" VerticalAlignment="Center"/>
+        <TextBox x:Name="FirstNametextBox" HorizontalAlignment="Left" Margin="605,375,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="604,433,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBox x:Name="LastNametextBox" HorizontalAlignment="Left" Margin="604,458,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Button x:Name="ClickButton" Content="Click to go page 2" HorizontalAlignment="Left" Margin="569,523,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
